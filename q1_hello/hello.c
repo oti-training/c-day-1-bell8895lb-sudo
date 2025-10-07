@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 int main() {
-    printf ("Hello Validation World! \n");
+    printf ("Hello Validation World!\n");
     return 0;
 }
 
