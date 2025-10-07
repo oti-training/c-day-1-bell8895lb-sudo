@@ -30,7 +30,7 @@ float calculate_power(float voltage, float current) {
  */
 int is_valid_power(float power) {
     // TODO: Implement power validation logic
-    return (power <= 5.0f W) ? 1:0 ;  // Placeholder
+    return (power <= 5.0f) ? 1:0 ;  // Placeholder
 }
 
 #ifndef UNIT_TEST
@@ -51,13 +51,12 @@ int main() {
     
     if (is_valid_power(power)) {
     	printf("Pass\n");
-    	return 0; //let the system know the pass exit
+     //let the system know the pass exit
     	}
     else {
-    	printf("Fail\n")
-    	return 1
+    	printf("Fail\n");
     	}
-
+    return 0;
     // TODO: Read voltage and current, calculate power, and validate
     // Read voltage and current, calculate power, and validate
 }
