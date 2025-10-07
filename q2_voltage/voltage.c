@@ -36,13 +36,13 @@ int main() {
     
     if (measured_voltage < voltage_min) {
     	printf ("Fail: Voltage too low!\n");
-    	}
+}
     else if (measured_voltage > voltage_max) {
     	printf ("Fail: Voltage too high!\n");
-    	}
+}
     else {
     	printf ("Pass: Voltage within the range\n");
-    	}
+}
     // scanf("%f", &measured_voltage);  // Uncomment and use
     return 0;
 }
